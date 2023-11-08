@@ -284,7 +284,7 @@ class Kitchen {
     public Kitchen() 
 	{
         isMealReady = false;
-        menu = ""Today's Menu:\n1. Breakfast: crambled Eggs\n2. Lunch: Grilled Chicken\n3. Dinner: Spaghetti"";
+       
     }
 
     public void setMenu(String menu)
@@ -318,7 +318,8 @@ class Kitchen {
     public void displayMenu() 
 	{
         System.out.println("Today's Menu:");
-        System.out.println(menu);
+        System.out.println("1.griled chiken with parotta for Lunch");
+        System.out.println("2.String Hoppers with dhal- for Dinner" );
     }
 }
 
